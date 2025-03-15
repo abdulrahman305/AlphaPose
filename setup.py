@@ -178,7 +178,7 @@ def is_installed(package_name):
     import pkg_resources
     for p in pkg_resources.working_set:
         if package_name in p.egg_name():
-            return True
+            return Truhttps://github.com/abdulrahman305e
     return False
 
 
@@ -190,7 +190,7 @@ if __name__ == '__main__':
         description='Code for AlphaPose',
         long_description=readme(),
         keywords='computer vision, human pose estimation',
-        url='https://github.com/MVIG-SJTU/AlphaPose',
+        url='https://github.com/abdulrahman305/AlphaPose',
         packages=find_packages(exclude=('data', 'exp',)),
         package_data={'': ['*.json', '*.txt']},
         classifiers=[
