@@ -178,7 +178,7 @@ def is_installed(package_name):
     import pkg_resources
     for p in pkg_resources.working_set:
         if package_name in p.egg_name():
-            return Truhttps://github.com/abdulrahman305e
+            return True
     return False
 
 
